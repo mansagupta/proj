@@ -1,0 +1,34 @@
+name: proj
+description: A Flutter app to detect beacons and calculate position using trilateration.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_reactive_ble: ^5.0.0
+  permission_handler: ^11.2.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  collection: ^1.18.0
+  leak_tracker: ^10.0.5
+  leak_tracker_flutter_testing: ^3.0.5
+  material_color_utilities: ^0.11.1
+  meta: ^1.15.0
+  protobuf: ^2.0.0
+  stack_trace: ^1.11.1
+  string_scanner: ^1.2.0
+  test_api: ^0.7.2
+  vm_service: ^14.2.5 # Ensure this is included
+
+
+flutter:
+  uses-material-design: true
